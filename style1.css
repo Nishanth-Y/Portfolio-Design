@@ -7,3 +7,16 @@
 svg{
     width: 50%;
 }
+
+.scroll-container {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    height:50%;
+    width:50%;
+  }
