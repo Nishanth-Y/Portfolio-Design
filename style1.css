@@ -1,15 +1,35 @@
 .hero-img{
-    width: 40%;
+    width: 30%;
     text-align: right;  
     /* height: 30vh; */
-    /* margin-left: 200px; */
+    margin: 20px;
+    border: 1px solid none;
+    border-radius: 45%;
 }
+
+@media only screen and (max-width: 575px) {
+  .hero-img{
+    width: 50%;
+    text-align: right;  
+    /* height: 30vh; */
+    margin: 20px;
+    border: 1px solid none;
+    border-radius: 45%;
+}
+}
+
+@media only screen and (max-width: 765px){
+  #about img{
+    display:  none;
+  }
+}
+
 svg{
     width: 50%;
 }
 
 .scroll-container {
-    background-color: #333;
+    /* background-color: #333; */
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
